@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine's Day</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffebef;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+        }
+        h1 {
+            color: #e63946;
+            font-size: 3em;
+            text-shadow: 3px 3px 10px rgba(230, 57, 70, 0.7);
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            0% { text-shadow: 3px 3px 10px rgba(230, 57, 70, 0.7); }
+            100% { text-shadow: 3px 3px 20px rgba(230, 57, 70, 1); }
+        }
+        .heart {
+            font-size: 60px;
+            color: #e63946;
+            animation: heartbeat 1s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.4); }
+            100% { transform: scale(1); }
+        }
+        .button {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            margin-top: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .button:hover {
+            background-color: #ff1c49;
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgba(255, 28, 73, 0.7);
+        }
+        .photo-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .heart-animation {
+            font-size: 50px;
+            color: #e63946;
+            position: absolute;
+            animation: floatUp 5s infinite ease-in-out;
+        }
+        @keyframes floatUp {
+            0% { transform: translateY(0); opacity: 1; }
+            100% { transform: translateY(-100vh); opacity: 0; }
+        }
+        .photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 2s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Valentine's Day Sayaanggg! 💕</h1>
+        <div class="heart">❤️</div>
+        <div class="photo-container">
+            <img src="https://media-hosting.imagekit.io//f627bba33a9c43a4/6bc4d170-6b15-4c62-b7c5-611b2b7e187d.jpg?Expires=1834136780&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0HwdA~yRtN26BAziNtj4Jd7uh4jwqlCfeec61E5JiHSfm9Uhih9jZG-hDyMi4k97gRB53k95i9v9GERVUhHd4MDsZeLx6VZ~SORLUUmfk8GsS5Z7n1LhzBNiumnT7hpo98wISkGoRVAyUU1HkLm-VyfROkwecG0KQMqe0kGhirLwuvVGF~4DKc2b8nuUaOQrTsK7O~u61rX~pkLRclaYCo~u7ORTviQ6fH4h48ruKXN6DWqYjqQ81F60uE6ZrGcMXaP-xF0ai5n26yKaOj8j60yDDaeccPZsI2iWFuXwSM50BNdKQDnwYMJdz-JwouC~T3mVB3n~zlQxemUlkqJ7eQ__" alt class="photo">
+            <img src="https://media-hosting.imagekit.io//54a87e336878430e/9a9c50fe-4fbe-4736-b79d-c694a21d03f7.jpg?Expires=1834136788&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=svrDeSih0aM~wGtlwU25Vx1yhhgjM-NJZ5sxZEJYS5MxDT8HIk3GsJFmgj9WB2oKdgYeLqDHrrxzY6lE5r6MoVSUtJ24bgSNhggr-9gbPDeUvOPqa49IkQ1vEuj9k7dUU4A0m7gEXnOStYblnk9KGFbatX62QKx8a4yOwNDTtdMfo5FXLQFhEGGWmMFs63ozDHfkhz9wzXzTd~LLeH206q~9u9qoLJp1LI2uer2IiDrzKozyn2hWPVUp6GAyeh7MvOB3t-MQTTGdjQVm4bHGp95gznkqBD6PYIYczsUKEl2QD9dx9fv-6RL8ClNFOGNKEdqNZHWDBbfd6OqV43DmRw__" alt 2" class="photo">
+            <img src="https://media-hosting.imagekit.io//2695f52d3aff4f98/af44359a-7e11-4280-a669-ade8fd2c1c98.jpg?Expires=1834136825&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=ENxq6DpmoRRKlbjPB88fSjNR5-dbi4sRg5NzK7XB~fvC10QCRY3~TkJjoxRqTNHUzI4may2~MDBn9qT2gaZ780ok8F9cf0A4a4cfBw6SbWJGz6TNwShj8sRqtZJ0urpRcgOgtYJQ~MWpAHLkTphSpn1u9E9TESDi-O2dIUPc4e5PuUuuEdmLtuM7XSZFfIH3qGNaCKmw2RPx9X18tSfKcpJQE3wl5wSzDNRe2dKwMooildMYCNlJRWLh6rAO8DeK-wzj4zh4nXBNl6I5JiOm~tqXytaCYWDvurId7B-IVvtvfYtSm8kknaCpStIOwAvdxs807njQvHqvVAL1ip0kyQ__" alt class="photo">
+        </div>
+        <button class="button" onclick="window.location.href='page2.html'">Next Page</button>
+    </div>
+
+    <script>
+        function createHearts() {
+            for (let i = 0; i < 10; i++) {
+                setTimeout(() => {
+                    let heart = document.createElement('div');
+                    heart.classList.add('heart-animation');
+                    heart.innerHTML = "❤️";
+                    heart.style.left = Math.random() * 100 + "vw";
+                    heart.style.top = Math.random() * 100 + "vh";
+                    heart.style.animationDuration = Math.random() * 3 + 2 + "s";
+                    document.body.appendChild(heart);
+                    setTimeout(() => {
+                        heart.remove();
+                    }, 5000);
+                }, i * 500);
+            }
+        }
+        createHearts();
+    </script>
+</body>
+</html>
